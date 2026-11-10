@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/msgarbossa/vidqc/align"
-	"github.com/msgarbossa/vidqc/encodequality"
+	"github.com/tidecomb/vidqc/align"
+	"github.com/tidecomb/vidqc/encodequality"
 )
 
 // Defaults for content-based alignment. These come from one real

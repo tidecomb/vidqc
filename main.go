@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/msgarbossa/vidqc/check"
-	"github.com/msgarbossa/vidqc/encodequality"
+	"github.com/tidecomb/vidqc/check"
+	"github.com/tidecomb/vidqc/encodequality"
 )
 
 // Set via -ldflags at release build time (see .goreleaser.yaml); "dev"

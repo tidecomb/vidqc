@@ -94,7 +94,7 @@ callers run ffmpeg (or already have a log from elsewhere) and hand it the
 log path:
 
 ```go
-import "github.com/msgarbossa/vidqc/encodequality"
+import "github.com/tidecomb/vidqc/encodequality"
 
 res, err := encodequality.ParseLog(logPath, fps)
 verdict := encodequality.VMAFVerdict(res.VMAF.Mean, res.VMAF.Min)
@@ -107,7 +107,7 @@ PCM samples (or an already-computed energy envelope) and get back the
 matching segments:
 
 ```go
-import "github.com/msgarbossa/vidqc/align"
+import "github.com/tidecomb/vidqc/align"
 
 encEnv := align.Envelope(encSamples, sampleRate, 0.2)
 srcEnv := align.Envelope(srcSamples, sampleRate, 0.2)
@@ -121,7 +121,7 @@ The CLI is a thin wrapper over it, so a caller gets exactly the CLI's
 output, written to whatever `io.Writer` it passes:
 
 ```go
-import "github.com/msgarbossa/vidqc/check"
+import "github.com/tidecomb/vidqc/check"
 
 if err := check.Available(); err != nil { // ffmpeg, ffprobe, libvmaf
 	return err

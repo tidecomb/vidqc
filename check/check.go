@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/msgarbossa/vidqc/encodequality"
+	"github.com/tidecomb/vidqc/encodequality"
 )
 
 const durationMismatchTolerance = 0.5 // seconds

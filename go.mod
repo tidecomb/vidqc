@@ -1,3 +1,3 @@
-module github.com/msgarbossa/vidqc
+module github.com/tidecomb/vidqc
 
 go 1.25

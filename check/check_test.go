@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/msgarbossa/vidqc/encodequality"
+	"github.com/tidecomb/vidqc/encodequality"
 )
 
 func sampleResult() encodequality.Result {

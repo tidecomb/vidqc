@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/msgarbossa/vidqc/encodequality"
+	"github.com/tidecomb/vidqc/encodequality"
 )
 
 type colors struct {
